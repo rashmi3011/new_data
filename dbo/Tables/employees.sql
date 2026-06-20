@@ -4,5 +4,6 @@ CREATE TABLE [dbo].[employees]
   [FirstName] NVARCHAR(50) NOT NULL,
   [LastName] NVARCHAR(50) NOT NULL,
   [HireDate] DATE NOT NULL,
-  [Salary] DECIMAL(12,2) NOT NULL
+  [Salary] DECIMAL(12,2) NOT NULL,
+  Email VARCHAR(100)
 )
